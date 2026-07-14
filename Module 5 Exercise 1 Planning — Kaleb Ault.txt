@@ -1,0 +1,24 @@
+Module 5 Exercise 1 Plan: Kaleb Ault
+
+For this game, there's one player and 3 categories with 5 clues each, worth 100-500 points. The player picks a category and point value, sees the clue, and answers in the form of a question.
+
+Outline: 
+
+1. Show the categories and point values
+
+2. Player picks one
+
+3. Show the clue
+
+4. Player answers
+
+5. Check if it's right, add points if correct, don't if wrong
+
+6. Mark that clue as done
+
+7. Repeat until all clues are answered
+
+8. Show the final score
+
+Since I check the answer, update the score, and mark the clue done every round, I’ll put all three into one reusable step called CheckAnswer instead of repeating several times. 
+
